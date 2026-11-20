@@ -1,0 +1,16 @@
+# Data files
+*.csv
+*.parquet
+*.zip
+/data/
+
+# Allow committed result models and metrics
+!Results/*.csv
+!Results/*.parquet
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# System files
+.DS_Store
